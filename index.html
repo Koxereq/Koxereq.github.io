@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Projekty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .project {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .project h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+        .project p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Moje Projekty</h1>
+</header>
+
+<div class="container">
+    <div class="project">
+        <h2>Projekt 1</h2>
+        <p>Opis pierwszego projektu. Tutaj możesz dodać szczegóły dotyczące swojego projektu, takie jak cele, technologie, których użyłeś, i wszelkie inne ważne informacje.</p>
+    </div>
+    <div class="project">
+        <h2>Projekt 2</h2>
+        <p>Opis drugiego projektu. Tutaj możesz dodać szczegóły dotyczące swojego projektu, takie jak cele, technologie, których użyłeś, i wszelkie inne ważne informacje.</p>
+    </div>
+    <div class="project">
+        <h2>Projekt 3</h2>
+        <p>Opis trzeciego projektu. Tutaj możesz dodać szczegóły dotyczące swojego projektu, takie jak cele, technologie, których użyłeś, i wszelkie inne ważne informacje.</p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 Moje Imię i Nazwisko. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
